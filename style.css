@@ -1,0 +1,345 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    background: url(banner.jpg) center no-repeat;
+    width: 1349px;
+    height: 865px;
+
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 1140px;
+    height: 865px; */
+    /* width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* phan chon auto co the dung de can khoi block vao giua */
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-learnt,
+.section-report,
+.member-group,
+.customers,
+.our-customers {
+    width: auto;
+    height: 400px;
+}
+
+.row {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /*can check thong tin*/
+    height: 100%;
+
+}
+
+.row-1 {
+    height: 79px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.about,
+.sign-in {
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-flex;
+    width: 82px;
+    height: 36px;
+}
+
+.sign-in {
+    border: 2px solid green;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.sign-in-text,
+.about-us {
+    margin: auto;
+    text-decoration: none;
+    padding: 0;
+}
+
+.sign-in-text {
+    color: green;
+}
+
+.about-us {
+    color: black;
+}
+
+.row-2 {
+    height: 150px;
+    display: flex;
+}
+
+.image-hapo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.row-3 {
+    height: 150px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon-gift,
+.icon-like,
+.icon-clock {
+    width: 33%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.gift,
+.clock,
+.like {
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row-4 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.row-5 {
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+/* .button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 144px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    background: linear-gradient(311deg, rgb(10 227 10), rgb(141 189 141))
+} */
+
+.section-body {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.web-hapo-learn,
+.right-paper {
+    width: 50%;
+    /* display: flex; */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.today-i-learn,
+.report {
+    display: flex;
+}
+
+.img-learn {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.today-i-learnt {
+    height: 75px;
+}
+
+.title {
+    font-size: 45;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+}
+
+.img-i-learn,
+.img-report {
+    width: 36px;
+    height: 36px;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.intro {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 144px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    background: linear-gradient(311deg, rgb(10 227 10), rgb(141 189 141))
+}
+
+.left-paper {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.section-fuature {
+    height: 323.5px;
+    background: linear-gradient(331deg, rgb(163, 233, 163), rgb(18, 121, 18));
+}
+
+.row-oval {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin: 68.75px 0 70px 0;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+.oval-icon {
+    width: 109.5;
+    height: 109.5;
+    border: 2.5px solid white;
+    border-radius: 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+.oval-number {
+    text-align: center;
+    width: 45.5px;
+    height: 45.5px;
+    border: 2.5px solid white;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: -26px 0 0 31px;
+    background-color: #7CB342
+}
+
+.oval-text {
+    height: 42px;
+    width: 77px;
+    text-align: center;
+    margin-top: 13.75px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.33px;
+    line-height: 21px
+}
+
+.check-box {
+    display: flex;
+
+}
+
+.check-box-icon {
+    margin-top: -10px;
+}
+
+.check-box-text {
+    margin-left: 15px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.our-customers {
+    background: url(our-customers.jpg) center no-repeat;
+
+}
+
+.title-customers {
+    height: 141px;
+    text-align: center;
+    color: white;
+    font-size: 40;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.text-customers {
+    margin-top: 60px;
+}
+
+.manager-customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.managers {
+    text-align: center;
+}
+
+.img-manager {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.manage-name,
+.manager-job {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+
+}
